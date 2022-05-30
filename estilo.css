@@ -1,0 +1,171 @@
+
+html{
+    background-color: black;
+}
+
+body{
+
+    content: '';
+    background-image: url(./homem1.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+    height: 100%;
+    opacity: 0.8;
+     
+}
+
+button{
+       background-color: black;
+       color: white;
+       font-size: 30px;
+       width: 200PX;
+       height: 50px;
+       margin: 50px;
+       border-radius: 20px;
+}
+a{
+    color:white
+}
+
+button:hover{
+     background-color: red;
+}
+
+.box { display: inline-flex;}
+
+.titulo h1{
+     text-align: center;
+     background-size: cover;
+     font-size: 80pt;
+     color:black;
+     margin: 50px;
+     padding: 5px;
+}
+
+.titulo h1:hover{
+    color: darkgoldenrod;
+}
+
+.container1{
+  background-image: url(./h1.gif);
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  padding-top: 5px;
+  margin: 50px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.container1:hover{
+    
+   border: 20px solid var(--cor-vermelha-principal); 
+   transform: scale(1.10);
+   animation: c-glowing-red 0.10s ease-in-out infinite;
+   animation-direction: alternate;
+}
+
+.container2{
+    background-image: url(./h4.gif);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    padding-top: 5px;
+    margin: 50px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.container2:hover{
+    
+    border: 20px solid var(--cor-vermelha-principal); 
+    transform: scale(1.10);
+    animation: c-glowing-red 0.10s ease-in-out infinite;
+    animation-direction: alternate;
+ }
+
+.container3{
+    background-image: url(./homem\ 3.gif);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    margin:50px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.container3:hover{
+    
+    border: 20px solid var(--cor-vermelha-principal); 
+    transform: scale(1.10);
+    animation: c-glowing-red 0.10s ease-in-out infinite;
+    animation-direction: alternate;
+ }
+
+.container4{
+    background-image: url(./h5.gif);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 280px;
+    border-radius: 5px;
+    margin:50px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.container4:hover{
+    
+    border: 20px solid var(--cor-vermelha-principal); 
+    transform: scale(1.10);
+    animation: c-glowing-red 0.10s ease-in-out infinite;
+    animation-direction: alternate;
+ }
+
+.container5{
+    background-image: url(./h6.gif);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    margin:50px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.container5:hover{
+    
+    border: 20px solid var(--cor-vermelha-principal); 
+    transform: scale(1.10);
+    animation: c-glowing-red 0.10s ease-in-out infinite;
+    animation-direction: alternate;
+ }
+
+.container6{
+    background-image: url(./h8.gif);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    margin:50px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.container6:hover{
+    
+   border: 20px solid var(--cor-vermelha-principal); 
+   transform: scale(1.10);
+   animation: c-glowing-red 0.10s ease-in-out infinite;
+   animation-direction: alternate;
+}
+
+footer{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
